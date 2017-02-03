@@ -9,13 +9,8 @@ package pokemon;
  *
  * @author c14002
  */
-public class Pokemon {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Trainer extends Player{
+    public Trainer(String name,int partner,int money){
+        super(name,partner,money);
     }
-    
 }
